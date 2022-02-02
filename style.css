@@ -1,0 +1,32 @@
+/* HA HA IM FIRST :p */
+#email{
+  border: 2px solid green;
+  background-color: #dff7d2;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#userres > label[for="email"]{
+  font-size: 20px;
+  color
+}
+#read{
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: #ffcccc;
+}
+#read > legend{
+  color:  #cc0000;
+}
+#read > p{
+  color:  #cc0000;
+}
+#read > label {
+  color:  #cc0000;
+}
+
+#comment {
+  border-bottom-color: purple;
+  text-shadow: 5px;
+  box-lines: large;
+  color: black;
+}

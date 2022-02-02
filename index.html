@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1>The input value attribute</h1>
+
+	<p>The value attribute specifies an initial value for an input field:</p>
+
+	<form action="/action_page.php" id="userForm">
+		<fieldset><legend>User Information</legend>
+			<label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="Enter First name">
+      <br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Johns"><br><br>
+      <label for="address">Address:</label><br>
+      <input type="text" id="address" name="address" value="12345 Street">
+		</fieldset>
+    <fieldset id ="userres"><legend>User Responses</legend>
+      <br>
+      <br>
+      <label for="email">Email: </label> <br>
+      <input type="email" id="email" name="email" value="What's a good email?">
+      <br>
+      <br>
+      <label for="comment">Comments: </label> <br>
+      <input type="textarea" name="comment" id="comment">
+      <br><br>
+      <label for="opsys">Pick a operating system:</label>
+      <select id="opsys" name="opsys_list" form="userForm">
+        <option value="windows">Windows</option>
+        <option value="linux">Linux</option>
+        <option value="mac">Mac</option>
+        <option value="solaris">Solaris</option>
+      </select>
+      <br><br>
+    </fieldset>
+      <br>
+      <fieldset id="read"><legend>User Reading</legend>
+        <p>Do you like to read?</p>
+        <input type="checkbox"  id="reader"  name="reader" value="I Read">
+        <label for="reader" > I like to  read.</label><br>
+        <input type="checkbox" id="notreader" name"notreader" value="I Don't Read">
+        <label for="notreader"> I don't like to read.</label>
+      </fieldset>
+      <br>
+      <input type="submit" value="Submit" onclick="userInput()">
+    </form>
+  <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
