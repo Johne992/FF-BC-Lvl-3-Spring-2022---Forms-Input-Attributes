@@ -26,7 +26,7 @@ function readerFun() {
   var i;
   for (i = 0; i < checks.length; i++) {
     if (checks[i].checked) {
-      
+    
     }
   }
   document.getElementById("order").value = "You ordered a coffee with: " + txt;
